@@ -1,3 +1,4 @@
+# convert_jpg_to_ico\convert_jpg_to_ico.py
 
 # pip install pillow
 from PIL import Image

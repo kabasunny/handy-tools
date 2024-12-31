@@ -1,3 +1,4 @@
+# compress_images\compress_images.py
 import os
 from PIL import Image
 import shutil
