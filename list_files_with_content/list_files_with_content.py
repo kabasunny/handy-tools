@@ -59,7 +59,7 @@ def save_to_file(output_path, tree_data, content_data):
 if __name__ == "__main__":
     project_dir = "."  # プロジェクトディレクトリからの相対パスを指定
     output_file = os.path.join(
-        project_dir, "output/all_file_output.txt"
+        project_dir, "file_concat/full_code.txt"
     )  # 出力ファイルのパスを修正
     file_extensions = [".go"]  # .goファイルのみを取得
     excluded_dirs = [".git", "__pycache__"]  # 除外するディレクトリを指定
